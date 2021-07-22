@@ -1,0 +1,27 @@
+// Tell what each java line of code does
+
+int size = 17;		// declares an int type variable of name size with value 17 stored in it
+String name = "Fido";	// declares a string type variable of name name with value "Fido" stored in it
+Dog myDog = new Dog(name, size);	// create a Dog type object named mydog with name and size as it's arguments
+x = size - 5;		// set x to size - 5; ie. 12
+if (x < 15) myDog.bark(8);	// if value of x is less than 15 (which it is) then call the bark method from myDog with 8 as its argument
+
+while (x > 3)
+{
+	myDog.play();
+}				// A loop that calls the play method of myDog object as long as x is greater than 3
+
+int[] numList = {2, 4, 6, 8};	// create an array of integers called numList with values 2, 4, 6 and 8 stored in it
+System.out.print("Hello");	// print Hello on standard output
+System.out.print("Dog: " + name);	// in this case print "Dog: Fido" on standard output
+String num = "8";		// declares another string named num with value "8" stored in it; not same as numerical 8
+int z = Integer.parseInt(num);	// take integer input from standard input and store it in z
+
+try
+{
+	readTheFile("myFile.txt");	// try to read a file named myfile.txt
+}
+catch(FileNotFoundException ex)
+{
+	System.out.print("File not found");	// in case file not found print file not found.
+}

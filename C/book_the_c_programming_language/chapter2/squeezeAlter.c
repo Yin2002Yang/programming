@@ -24,7 +24,7 @@ void squeezeAlter(char s1[], const char s2[])
 			s3[pos] = s1[i];
 			++pos;
 		}
-	s3[i] = '\0';
+	s3[pos] = '\0';
 
 	strcpy(s1, s3);
 }
