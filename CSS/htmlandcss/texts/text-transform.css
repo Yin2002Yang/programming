@@ -1,0 +1,14 @@
+h1
+{
+  text-transform: uppercase;
+}
+
+h2
+{
+  text-transform: lowercase;
+}
+
+.credits
+{
+  text-transform: capitalize;
+}
